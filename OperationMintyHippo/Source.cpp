@@ -88,7 +88,7 @@ int main() {
 	}
 
 	CheckMemory();
-	ReadCPUSpeed();
+    ReadCPUSpeed();
 	GetProcessorName();
 	system("pause");
 }
