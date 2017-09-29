@@ -115,7 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Actor\SpecialAbilityComponent.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Actor\Actor.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor\AbilityInterface.h" />
+    <ClInclude Include="Actor\SpecialAbilityComponent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

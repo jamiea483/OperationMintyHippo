@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Actor>
+  <Transform>
+      <Position x="1.385883" y="10.21463" z="-2.88255"/> 
+      <Rotation x="3.461321" y="355.6992" z="204.3322"/> 
+      <Scale x="7.2182" y="7.2182" z="5"/>
+  </Transform>
+  <CubeMeshFilter>
+    <Filter filter = "Cube"/>
+  </CubeMeshFilter>
+<BoxCollider>
+  <IsTrigger enabled = "false"/>
+  <Material mat = "none"/>
+  <Center x="0" y="0" z="0"/>
+  <Size x="1" y="1" z="1"/>
+ </BoxCollider>
+  <MeshRenderer>
+     <CastShadows enabled = "true"/>
+     <RecieveShadows enabled = "true"/>
+    <Materials>
+      <Size size = "1"/>
+      <Element0 mat ="White"/>
+    </Materials>
+     <UseLightProbes enabled = "false"/>
+  </MeshRenderer>
+  <Rigidbody>
+    <Mass mass ="7.2182"/> 
+    <Drag drag ="0"/> 
+    <AngularDrag drag ="0.05"/> 
+    <UseGravity enabled ="true"/>
+    <IsKinematic enabled ="false"/>
+    <Interpolate option ="None"/>
+    <CollisionDetection option ="Continuous"/>
+  </Rigidbody>
+</Actor>
